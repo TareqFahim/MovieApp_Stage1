@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/detail_textView_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/detail_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detail_textView_title"
+        android:paddingTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/detail_textView_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/detail_imageView"
+        android:layout_toRightOf="@id/detail_imageView"
+        android:paddingLeft="30dp"
+        android:paddingTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/detail_textView_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detail_textView_date"
+        android:layout_toRightOf="@id/detail_imageView"
+        android:paddingLeft="30dp"
+        android:paddingTop="1dp" />
+    <Button
+        android:id="@+id/reviews_btn"
+        android:text="Reviews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detail_textView_rate"
+        android:layout_toRightOf="@+id/detail_imageView"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/detail_textView_overview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reviews_btn"
+        android:layout_centerVertical="true"
+        android:paddingTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detail_textView_overview"
+        android:text="Trailers"
+        android:paddingTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+</RelativeLayout>
