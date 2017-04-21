@@ -141,7 +141,7 @@ public class MainMovieGridFragment extends Fragment {
             List<String> postersUrls = new ArrayList<String>();
             // Will contain the raw JSON response as a string.
 
-            String api_key = "30e0eb4c9a04152e0620151e5d67943c";
+            String api_key = "INSERT API KEY";
             try {
                 final String MOVIE_BASE_URL = "http://api.themoviedb.org/3/movie";
                 final String API_KEY_PARAM = "api_key";
